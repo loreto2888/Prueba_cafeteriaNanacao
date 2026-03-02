@@ -40,19 +40,15 @@ Los tests se encuentran en `tests/cafes.test.js` y cubren los requerimientos de 
 
 ## Cómo ejecutar el proyecto
 1. Instalar dependencias:
-
 ```bash
 npm install
 ```
-
 2. Ejecutar los tests:
-
 ```bash
 npm test
 ```
-
 3. (Opcional) Levantar el servidor para probar manualmente:
-
 ```bash
 npm start
 ```
+
