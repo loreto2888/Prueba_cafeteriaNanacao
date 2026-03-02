@@ -3,7 +3,6 @@
 Este proyecto implementa una pequeña API REST para la Cafetería Nanacao y los tests solicitados con Jest y supertest.
 
 ## API
-
 La API está definida en `index.js` y expone las siguientes rutas sobre la colección de cafés:
 
 - `GET /cafes`
@@ -24,7 +23,6 @@ La API está definida en `index.js` y expone las siguientes rutas sobre la colec
   - Si coinciden y el café existe, actualiza y devuelve status **200**.
 
 ## Tests (Jest + supertest)
-
 Los tests se encuentran en `tests/cafes.test.js` y cubren los requerimientos de la prueba:
 
 1. **GET /cafes**
@@ -41,7 +39,6 @@ Los tests se encuentran en `tests/cafes.test.js` y cubren los requerimientos de 
    - Verifica que si se intenta actualizar un café enviando un `id` en los parámetros **diferente** al `id` dentro del payload, la ruta devuelve status **400**.
 
 ## Cómo ejecutar el proyecto
-
 1. Instalar dependencias:
 
 ```bash
